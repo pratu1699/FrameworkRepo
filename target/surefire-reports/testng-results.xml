@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[SwagLabs application is open]]>
+    </line>
+    <line>
+      <![CDATA[User login process will begin]]>
+    </line>
+    <line>
+      <![CDATA[User login is completed]]>
+    </line>
+    <line>
+      <![CDATA[Inventory page Testing started]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart page testing started!]]>
+    </line>
+    <line>
+      <![CDATA[CheckOut process begin]]>
+    </line>
+    <line>
+      <![CDATA[Process is completed!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-30T21:54:10 IST" name="Suite" finished-at="2023-07-30T21:54:49 IST" duration-ms="38496">
+    <groups>
+    </groups>
+    <test started-at="2023-07-30T21:54:10 IST" name="Test" finished-at="2023-07-30T21:54:49 IST" duration-ms="38496">
+      <class name="com.SwagLabs.TestCases.OrderSummaryPageTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.SwagLabs.TestCases.OrderSummaryPageTest@609e8838]" started-at="2023-07-30T21:54:10 IST" name="browserSetup" finished-at="2023-07-30T21:54:14 IST" duration-ms="3970" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[SwagLabs application is open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLabs.TestCases.OrderSummaryPageTest@609e8838]" started-at="2023-07-30T21:54:14 IST" name="pageSetup" finished-at="2023-07-30T21:54:48 IST" duration-ms="34357" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User login process will begin]]>
+            </line>
+            <line>
+              <![CDATA[User login is completed]]>
+            </line>
+            <line>
+              <![CDATA[Inventory page Testing started]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart page testing started!]]>
+            </line>
+            <line>
+              <![CDATA[CheckOut process begin]]>
+            </line>
+            <line>
+              <![CDATA[Process is completed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifySummary()[pri:1, instance:com.SwagLabs.TestCases.OrderSummaryPageTest@609e8838]" started-at="2023-07-30T21:54:48 IST" name="verifySummary" finished-at="2023-07-30T21:54:48 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySummary -->
+        <test-method signature="verifyOrder()[pri:2, instance:com.SwagLabs.TestCases.OrderSummaryPageTest@609e8838]" started-at="2023-07-30T21:54:48 IST" name="verifyOrder" finished-at="2023-07-30T21:54:49 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrder -->
+      </class> <!-- com.SwagLabs.TestCases.OrderSummaryPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

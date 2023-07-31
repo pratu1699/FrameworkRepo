@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listner.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SwagLabs.TestCases.LoginPageTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="pageSetup"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.LoginPageTest -->
+      <class name="com.SwagLabs.TestCases.InventoryPageTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="pageSetup"/>
+          <include name="verifyProductCount"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifyProductName"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.InventoryPageTest -->
+      <class name="com.SwagLabs.TestCases.OrderSummaryPageTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="pageSetup"/>
+          <include name="verifySummary"/>
+          <include name="verifyOrder"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.OrderSummaryPageTest -->
+      <class name="com.SwagLabs.TestCases.AddToCartPageTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="pageSetup"/>
+          <include name="verifyCheckoutPage"/>
+          <include name="OpenAddToCartPage"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.AddToCartPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
